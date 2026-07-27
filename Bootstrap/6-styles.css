@@ -1,0 +1,62 @@
+/* Primary Buttons */
+.btn-primary {
+  background-color: #E0003C !important;
+  border-color: #E0003C !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active {
+  background-color: #BC1340 !important;
+  border-color: #BC1340 !important;
+}
+
+/* Outline Primary Buttons */
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  color: #E0003C !important;
+  border-color: #E0003C !important;
+}
+
+/* Anchor / Link Overrides */
+a,
+a:hover,
+a:focus,
+a:visited,
+a.text-dark,
+a.text-dark:hover,
+a.text-dark:focus,
+a.text-muted,
+a.text-muted:hover,
+a.text-muted:focus {
+  color: #E0003C !important;
+}
+
+/* Card Styling */
+.card,
+.card-header,
+.card-footer {
+  border-color: #E0003C !important;
+  border-radius: 1rem !important;
+}
+
+.card-header {
+  border-bottom-color: #E0003C !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.card-footer {
+  border-top-color: #E0003C !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+/* Muted Text */
+.text-muted {
+  color: #8C8C8C !important;
+}
